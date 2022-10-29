@@ -21,4 +21,11 @@ sign_in = () => {
   if (email == '' || pass == ''){
     alert('You have not entered email or pass!')
   }
+
+  else if (email == 'admin' && pass == 'password'){
+    alert('Correct password, you have Signed In')
+  }
+  else{
+    alert('Incorrect Email or Password!')
+  }
 }
